@@ -62,7 +62,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'tech0-gen-11-step3-2-node-XX'
+          app-name: 'tech0-gen-11-step3-2-node-22'
           slot-name: 'Production'
           package: release.zip #4
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_757023396F9142F8A1C63506A5F6ECA0 }}
